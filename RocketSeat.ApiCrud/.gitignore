@@ -1,0 +1,66 @@
+## Build results
+bin/
+obj/
+out/
+Generated/
+
+## User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.vcxproj.user
+*.pdb
+
+## Rider
+.idea/
+
+## VS Code
+.vscode/
+.history/
+
+## ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+## DotNet Watch
+**/node_modules/
+**/.DS_Store
+**/bower_components/
+
+## Others
+*.log
+*.vs/
+*.dbmdl
+*.jfm
+
+# Mac system files
+.DS_Store
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Visual Studio working folder
+.vs/
+
+# Local NuGet packages
+*.nupkg
+*.snupkg
+
+# Environment variables
+.env
+
+# Publish output
+publish/
+wwwroot/dist/
+
+# SQLite local DBs (caso use localmente)
+*.db
+*.sqlite
+
+# JetBrains Rider
+.idea/
+*.sln.iml
