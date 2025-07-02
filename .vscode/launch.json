@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Rodar MinhaPrimeiraAPI (debug)",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "dotnet",
+      "args": [
+        "run",
+        "--project",
+        "${workspaceFolder}/RocketSeat.ApiCrud/MinhaPrimeiraAPI"
+      ],
+      "cwd": "${workspaceFolder}/RocketSeat.ApiCrud/MinhaPrimeiraAPI",
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "console": "integratedTerminal",
+      "stopAtEntry": false,
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "Now listening on: (http://\\S+)",
+        "uriFormat": "%s/swagger"
+      }
+    }
+  ]
+}
